@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+
+    <p>Name in session is: {{request.session.counter}}  Times</p>
+    <a href='/delete/'>
+        <button>delete</button>
+    </a>
+    <a href='/'>
+        <button>add sessions to counter</button>
+    </a>
+    <a href='/count_two/'>
+        <button>add sessions to counter of 2</button>
+    </a>
+</body>
+</html>
